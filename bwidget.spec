@@ -3,7 +3,7 @@
 
 Name:           bwidget
 Version:        1.9.0
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Extended widget set for Tk
 
 Group:          Development/Libraries
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc BWman/*.html
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.9.0-6
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.9.0-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
